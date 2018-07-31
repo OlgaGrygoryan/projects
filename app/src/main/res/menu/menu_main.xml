@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.olgalamzaki.tasktimer.MainActivity">
+    <item
+        android:id="@+id/menumain_settings"
+        android:orderInCategory="100"
+        android:title="@string/menumain_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menumain_addTask"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menutitle_task"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menumain_addDuration"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/menumain_addDuration"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menumain_showAbout"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="101"
+        android:title="@string/menumain_showAbout"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menumain_generate"
+        android:orderInCategory="102"
+        android:title="@string/menumain_generate"
+        android:visible="false"
+        app:showAsAction="never" />
+    />
+</menu>
